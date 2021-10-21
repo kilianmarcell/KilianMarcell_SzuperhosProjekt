@@ -19,5 +19,8 @@ public class Main {
         System.out.println(b1);
         System.out.println(v1);
         System.out.println(bat1);
+        System.out.println("\n\n");
+        Kepregeny.szereplok("szuperhos.txt");
+        Kepregeny.szuperhosok();
     }
 }
