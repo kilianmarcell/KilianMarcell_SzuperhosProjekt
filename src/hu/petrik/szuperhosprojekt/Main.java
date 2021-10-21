@@ -15,7 +15,9 @@ public class Main {
             }
         };
         Vasember v1 = new Vasember();
+        Batman bat1 = new Batman();
         System.out.println(b1);
         System.out.println(v1);
+        System.out.println(bat1);
     }
 }
