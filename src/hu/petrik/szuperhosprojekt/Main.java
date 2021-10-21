@@ -14,6 +14,8 @@ public class Main {
                 return false;
             }
         };
+        Vasember v1 = new Vasember();
         System.out.println(b1);
+        System.out.println(v1);
     }
 }

@@ -2,7 +2,7 @@ package hu.petrik.szuperhosprojekt;
 
 import java.text.Format;
 
-public abstract  class Bosszuallo implements Szuperhos {
+public abstract class Bosszuallo implements Szuperhos {
     private double szuperero;
     private boolean vanEGyengesege;
 
