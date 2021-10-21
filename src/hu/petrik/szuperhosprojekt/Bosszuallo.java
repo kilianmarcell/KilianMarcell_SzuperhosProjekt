@@ -19,8 +19,8 @@ public abstract class Bosszuallo implements Szuperhos {
     }
 
     @Override
-    public boolean legyoziE(Bosszuallo hos) {
-        if (szuperero > hos.mekkoraAzEreje() && hos.vanEGyengesege) {
+    public boolean legyoziE(Szuperhos hos) {
+        if (hos.mekkoraAzEreje() > this.szuperero && this.vanEGyengesege) {
             return true;
         } else {
             return false;

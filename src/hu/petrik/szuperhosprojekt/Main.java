@@ -10,7 +10,7 @@ public class Main {
             }
 
             @Override
-            public boolean legyoziE(Bosszuallo hos) {
+            public boolean legyoziE(Szuperhos hos) {
                 return false;
             }
         };

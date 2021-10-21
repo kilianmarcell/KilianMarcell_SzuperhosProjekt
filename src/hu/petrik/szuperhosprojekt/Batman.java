@@ -13,8 +13,8 @@ public class Batman implements Szuperhos, Milliardos{
     }
 
     @Override
-    public boolean legyoziE(Bosszuallo hos) {
-        if (lelemenyesseg > hos.getSzuperero()) {
+    public boolean legyoziE(Szuperhos hos) {
+        if (hos.mekkoraAzEreje() > this.lelemenyesseg) {
             return true;
         } else {
             return false;
